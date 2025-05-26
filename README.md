@@ -12,16 +12,6 @@ A modern, is an open-source WPF application for Windows that allows users (Graph
 - **Detailed log output** for all actions and errors.
 - **Admin rights detection** and guidance for system font installation.
 
-## Screenshots
-
-![Main UI](docs/screenshot_main.png)  
-*Main window with dark theme and instructions sidebar.*
-
-![Browse Dialog](docs/screenshot_bowse.png)  
-*Folder selection dialog for choosing font ZIPs.*
-
-![Installation Complete](docs/screenshot_complete.png)  
-*Confirmation after successful font installation.*
 
 ## Requirements
 
@@ -97,3 +87,15 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 *Happy font installing!*
+
+
+## Screenshots
+
+![Main UI](docs/screenshot_main.png)  
+*Main window with dark theme and instructions sidebar.*
+
+![Browse Dialog](docs/screenshot_browse.png)  
+*Folder selection dialog for choosing font ZIPs.*
+
+![Installation Complete](docs/screenshot_complete.png)  
+*Confirmation after successful font installation.*
