@@ -1,6 +1,6 @@
 # FontInstallerApp
 
-A modern, is an open-source WPF application for Windows that allows users (Graphic designer, Editors, etc.) to easily install fonts from ZIP archives. The app  supports `.ttf` and `.otf` fonts, and handles system font installation with administrator privileges.
+This is an open-source WPF application for Windows that allows users (Graphic designers, Editors, etc.) to easily install fonts from ZIP archives. The app  supports `.ttf` and `.otf` fonts, and handles system font installation with administrator privileges.
 
 ## Features
 
@@ -8,7 +8,6 @@ A modern, is an open-source WPF application for Windows that allows users (Graph
 - **Automatic extraction** of ZIP archives.
 - **Installs TrueType (`.ttf`) and OpenType (`.otf`) fonts** to the Windows Fonts directory.
 - **Registry update** for system-wide font registration.
-- **Dark mode UI** with a custom dark title bar.
 - **Detailed log output** for all actions and errors.
 - **Admin rights detection** and guidance for system font installation.
 
@@ -21,7 +20,7 @@ A modern, is an open-source WPF application for Windows that allows users (Graph
 
 ## Installation
 
-1. **Clone the repository:**git clone https://github.com/Evance262/FontInstallerApp.git
+1. **Clone the repository:** Git clone https://github.com/Evance262/FontInstallerApp.git
 2. **Open the solution in Visual Studio 2022 or later.**
 
 3. **Build the project.**
@@ -50,7 +49,7 @@ If you just want to use the app without building it yourself:
 5. The app copies fonts to the system Fonts folder, updates the registry, and notifies Windows of the change.
 
 > **Note:**  
-> System-wide font installation requires administrator rights. If you do not run the app as admin, installation will fail.
+> System-wide font installation requires administrator rights. If you do not run the app as admin, installation will fail. However the app is designed to request admin rights when running it.
 
 ## How It Works
 
@@ -58,7 +57,6 @@ If you just want to use the app without building it yourself:
 - **Font Copy:** Copies font files to `C:\Windows\Fonts`.
 - **Registry Update:** Adds font entries to `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts`.
 - **Font Notification:** Calls `AddFontResourceEx` and broadcasts `WM_FONTCHANGE` to notify the system.
-- **Dark Title Bar:** Uses `DwmSetWindowAttribute` for immersive dark mode.
 
 ## Customization
 
@@ -73,7 +71,7 @@ If you just want to use the app without building it yourself:
 
 ## Contributing
 
-Contributions are welcome! Please open issues or submit pull requests.
+Contributions are welcome! Please open issues or submit pull requests. :smile:
 
 ## License
 
