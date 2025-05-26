@@ -33,7 +33,7 @@ A modern, is an open-source WPF application for Windows that allows users (Graph
 
 If you just want to use the app without building it yourself:
 
-1. **Download the latest release ZIP** from the [Releases page](https://github.com/Evance262/FontInstallerApp/versions).
+1. **Download the latest release ZIP** from the [Releases folder](https://github.com/Evance262/FontInstallerApp/tree/master/FontInstallerApp/versions).
 2. **Extract** the ZIP file to a folder of your choice.
 3. **Right-click** `FontInstallerApp.exe` and select **Run as administrator** (required for system font installation).
 4. Start using the app!
