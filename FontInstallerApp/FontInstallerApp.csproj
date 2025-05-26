@@ -19,4 +19,8 @@
 		<Content Include="icon.ico" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="release_versions\" />
+	</ItemGroup>
+
 </Project>
